@@ -80,10 +80,10 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/botonLogin"
+        android:id="@+id/botonSignUp"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Iniciar sesion"
+        android:text="Registrarse"
         app:layout_constraintTop_toBottomOf="@id/til3"
         app:layout_constraintStart_toStartOf="@id/guideline1"
         app:layout_constraintEnd_toEndOf="@id/guideline2"
