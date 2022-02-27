@@ -9,6 +9,7 @@ import androidx.viewpager2.widget.ViewPager2;
 import android.os.Bundle;
 
 import com.google.android.material.tabs.TabLayout;
+import com.google.android.material.tabs.TabLayoutMediator;
 
 public class LoginViewPagerActivity extends AppCompatActivity {
     ViewPager2 viewPager2;
@@ -21,7 +22,18 @@ public class LoginViewPagerActivity extends AppCompatActivity {
         viewPager2=findViewById(R.id.viewPager);
         tablayout=findViewById(R.id.tabLayout);
 
-        //viewPager2.setAdapter();
+        viewPager2.setAdapter(new ViewPager(this));
+
+        new TabLayoutMediator(tablayout, viewPager2, (tab, position) -> {
+            switch (position) {
+                case 0:
+                    tab.setText("Iniciar sesión");
+                    break;
+                case 1:
+                    tab.setText("SignUp");
+                    break;
+            }
+        }).attach();
     }
 
 
