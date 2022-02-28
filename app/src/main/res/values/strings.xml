@@ -2,4 +2,16 @@
     <string name="app_name">IberFork</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+<!--    Restaurante barril-->
+    <string name="barrilTitulo">El Barril de las Cortes</string>
+    <string name="barrilDescripcion">En El Barril de las Cortes, de Madrid, encontrarás gran variedad de platos elaborados con los mejores ingredientes y de la mejor calidad. Prueba cada una de las delicias que te ofrece su variada carta y, lo mejor de todo, a muy buen precio. Elige lo que más te apetezca y haz tu pedido ahora. ¡No te arrepentirás!</string>
+    <string name="barrilDireccion">Carrera de San Jerónimo, 17, Madrid, 28014</string>
+    <string name="barrilHorario">12:30 – 23:40</string>
+
+    <!--    Restaurante pizzeria dante-->
+    <string name="danteTitulo">Ristorante Pizzería Dante</string>
+    <string name="danteDescripcion">En Ristorante Pizzería Dante de Madrid encontrarás la mejor selección de platos italianos, con los mejores ingredientes y la mejor combinación de sabores. Aprovecha y pide lo que más te gusta.</string>
+    <string name="danteDireccion">Calle Cáceres, 34, Madrid, 28045</string>
+    <string name="danteHorario">19:00 – 23:59</string>
 </resources>
