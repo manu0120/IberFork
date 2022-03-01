@@ -1,3 +1,4 @@
+
 <resources>
     <string name="app_name">IberFork</string>
     <!-- TODO: Remove or change this placeholder text -->
@@ -14,4 +15,22 @@
     <string name="danteDescripcion">En Ristorante Pizzería Dante de Madrid encontrarás la mejor selección de platos italianos, con los mejores ingredientes y la mejor combinación de sabores. Aprovecha y pide lo que más te gusta.</string>
     <string name="danteDireccion">Calle Cáceres, 34, Madrid, 28045</string>
     <string name="danteHorario">19:00 – 23:59</string>
+
+    <!--    Crudo Pokes & Salads:-->
+    <string name="crudoTitulo">Crudo Pokes and Salads</string>
+    <string name="crudoDescripcion">En Crudo Pokes and Salads, de Madrid, encontrarás gran variedad de platos elaborados con los mejores ingredientes y de la mejor calidad. Prueba cada una de las delicias que te ofrece su variada carta y, lo mejor de todo, a muy buen precio. </string>
+    <string name="crudoDireccion">Calle de Echegaray, 5, Madrid, 28014</string>
+    <string name="crudoHorario">11:00 – 23:25</string>
+
+    <!--    Bosforos Turkish Restaurant:-->
+    <string name="bosforosTitulo">Bosforos Turkish Restaurant</string>
+    <string name="bosforosDescripcion">Comienza tu pedido eligiendo entre sus pizzas, bocadillos de ternera, pollo y mixto. Puedes acompañar tu kebab con una ración de patatas, ensalada o arroz. También disponen de menús a muy buen precio que te incluyen patatas y bebida. Disfruta de lo mejor de la cocina turca.</string>
+    <string name="bosforosDireccion">Calle de Hortaleza, 6, Madrid, 28004</string>
+    <string name="bosforosHorario">12:00 – 23:59</string>
+
+    <!--    Healthy Burrito Toledo: -->
+    <string name="healthyTitulo">healthy Turkish Restaurant</string>
+    <string name="healthyDescripcion">Comienza tu pedido eligiendo entre sus pizzas, bocadillos de ternera, pollo y mixto. Puedes acompañar tu kebab con una ración de patatas, ensalada o arroz. También disponen de menús a muy buen precio que te incluyen patatas y bebida. Disfruta de lo mejor de la cocina turca.</string>
+    <string name="healthyDireccion">Calle de Hortaleza, 6, Madrid, 28004</string>
+    <string name="healthyHorario">12:00 – 23:59</string>
 </resources>
