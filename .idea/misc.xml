@@ -3,13 +3,23 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/IES Juan de la Cierva 2021-22/PMDM/Segunda evaluacion/Proyecto segunda evaluacion/IberFork/app/src/main/res/layout/activity_barril.xml" value="0.22" />
+        <entry key="..\:/IES Juan de la Cierva 2021-22/PMDM/Segunda evaluacion/Proyecto segunda evaluacion/IberFork/app/src/main/res/layout/activity_bosforos.xml" value="0.22" />
+        <entry key="..\:/IES Juan de la Cierva 2021-22/PMDM/Segunda evaluacion/Proyecto segunda evaluacion/IberFork/app/src/main/res/layout/activity_chun.xml" value="0.17147922998986828" />
+        <entry key="..\:/IES Juan de la Cierva 2021-22/PMDM/Segunda evaluacion/Proyecto segunda evaluacion/IberFork/app/src/main/res/layout/activity_crudo.xml" value="0.3168604651162791" />
+        <entry key="..\:/IES Juan de la Cierva 2021-22/PMDM/Segunda evaluacion/Proyecto segunda evaluacion/IberFork/app/src/main/res/layout/activity_dante.xml" value="0.36666666666666664" />
+        <entry key="..\:/IES Juan de la Cierva 2021-22/PMDM/Segunda evaluacion/Proyecto segunda evaluacion/IberFork/app/src/main/res/layout/activity_healthy.xml" value="0.17147922998986828" />
+        <entry key="..\:/IES Juan de la Cierva 2021-22/PMDM/Segunda evaluacion/Proyecto segunda evaluacion/IberFork/app/src/main/res/layout/activity_lenya.xml" value="0.5" />
         <entry key="..\:/IES Juan de la Cierva 2021-22/PMDM/Segunda evaluacion/Proyecto segunda evaluacion/IberFork/app/src/main/res/layout/activity_login.xml" value="0.25" />
         <entry key="..\:/IES Juan de la Cierva 2021-22/PMDM/Segunda evaluacion/Proyecto segunda evaluacion/IberFork/app/src/main/res/layout/activity_login_view_pager.xml" value="0.22" />
-        <entry key="..\:/IES Juan de la Cierva 2021-22/PMDM/Segunda evaluacion/Proyecto segunda evaluacion/IberFork/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/IES Juan de la Cierva 2021-22/PMDM/Segunda evaluacion/Proyecto segunda evaluacion/IberFork/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/IES Juan de la Cierva 2021-22/PMDM/Segunda evaluacion/Proyecto segunda evaluacion/IberFork/app/src/main/res/layout/activity_main2.xml" value="0.17147922998986828" />
+        <entry key="..\:/IES Juan de la Cierva 2021-22/PMDM/Segunda evaluacion/Proyecto segunda evaluacion/IberFork/app/src/main/res/layout/activity_miss.xml" value="0.17147922998986828" />
+        <entry key="..\:/IES Juan de la Cierva 2021-22/PMDM/Segunda evaluacion/Proyecto segunda evaluacion/IberFork/app/src/main/res/layout/activity_picnic.xml" value="0.2" />
         <entry key="..\:/IES Juan de la Cierva 2021-22/PMDM/Segunda evaluacion/Proyecto segunda evaluacion/IberFork/app/src/main/res/layout/activity_sign_up.xml" value="0.33" />
         <entry key="..\:/IES Juan de la Cierva 2021-22/PMDM/Segunda evaluacion/Proyecto segunda evaluacion/IberFork/app/src/main/res/layout/fragment_login.xml" value="0.35260416666666666" />
         <entry key="..\:/IES Juan de la Cierva 2021-22/PMDM/Segunda evaluacion/Proyecto segunda evaluacion/IberFork/app/src/main/res/layout/fragment_sign_up.xml" value="0.36666666666666664" />
-        <entry key="..\:/Perfiles/am6DAM2/Manuel Arias/PMDM/Segunda evaluacion/Aplicacion IberFork/IberFork/app/src/main/res/layout/activity_barril.xml" value="0.22" />
+        <entry key="..\:/IES Juan de la Cierva 2021-22/PMDM/Segunda evaluacion/Proyecto segunda evaluacion/IberFork/app/src/main/res/layout/row.xml" value="0.22" />
       </map>
     </option>
   </component>

@@ -10,6 +10,30 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.IberFork">
         <activity
+            android:name=".LenyaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ChunActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PicnicActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MissActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HealthyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BosforosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CrudoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DanteActivity"
+            android:exported="false" />
+        <activity
             android:name=".BarrilActivity"
             android:exported="false" />
         <activity
@@ -26,7 +50,7 @@
             android:exported="false" />
         <activity
             android:name=".LoginActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".MainActivity"
             android:exported="true" />
