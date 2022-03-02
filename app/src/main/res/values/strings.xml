@@ -51,7 +51,7 @@
     <string name="chunDireccion">Calle de Embajadores, 177, Madrid, 28045</string>
     <string name="chunHorario">11:40 – 23:45</string>
 
-    <!--    La Leña Asador:   -->
+    <!--    La Leña Asador:  -->
     <string name="leñaTitulo">La Leña Asador</string>
     <string name="leñaDescripcion">¿Con ganas de comida americana? Estás en el sitio indicado. En el restaurante La Leña Asador de Madrid encontrarás una gran variedad de platos típicos americanos. ¡No lo dudes, disfruta de los mejores manjares de una de las gastronomías más punteras!</string>
     <string name="leñaDireccion">Paseo del Quince de Mayo, 2, Madrid, 28019</string>
