@@ -16,12 +16,12 @@ public class LoginActivity extends AppCompatActivity {
 
         botonIniciarSesion=findViewById(R.id.botonLogin);
 
-        botonIniciarSesion.setOnClickListener(new View.OnClickListener() {
+        /*botonIniciarSesion.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent=new Intent(LoginActivity.this, SignUpActivity.class);
                 startActivity(intent);
             }
-        });
+        });*/
     }
 }

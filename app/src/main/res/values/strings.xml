@@ -2,4 +2,58 @@
     <string name="app_name">IberFork</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--    Restaurante barril-->
+    <string name="barrilTitulo">El Barril de las Cortes</string>
+    <string name="barrilDescripcion">En El Barril de las Cortes, de Madrid, encontrarás gran variedad de platos elaborados con los mejores ingredientes y de la mejor calidad. Prueba cada una de las delicias que te ofrece su variada carta y, lo mejor de todo, a muy buen precio. Elige lo que más te apetezca y haz tu pedido ahora. ¡No te arrepentirás!</string>
+    <string name="barrilDireccion">Carrera de San Jerónimo, 17, Madrid, 28014</string>
+    <string name="barrilHorario">12:30 – 23:40</string>
+
+    <!--    Restaurante pizzeria dante-->
+    <string name="danteTitulo">Ristorante Pizzería Dante</string>
+    <string name="danteDescripcion">En Ristorante Pizzería Dante de Madrid encontrarás la mejor selección de platos italianos, con los mejores ingredientes y la mejor combinación de sabores. Aprovecha y pide lo que más te gusta.</string>
+    <string name="danteDireccion">Calle Cáceres, 34, Madrid, 28045</string>
+    <string name="danteHorario">19:00 – 23:59</string>
+
+    <!--    Crudo Pokes & Salads:-->
+    <string name="crudoTitulo">Crudo Pokes and Salads</string>
+    <string name="crudoDescripcion">En Crudo Pokes and Salads, de Madrid, encontrarás gran variedad de platos elaborados con los mejores ingredientes y de la mejor calidad. Prueba cada una de las delicias que te ofrece su variada carta y, lo mejor de todo, a muy buen precio. </string>
+    <string name="crudoDireccion">Calle de Echegaray, 5, Madrid, 28014</string>
+    <string name="crudoHorario">11:00 – 23:25</string>
+
+    <!--    Bosforos Turkish Restaurant:-->
+    <string name="bosforosTitulo">Bosforos Turkish Restaurant</string>
+    <string name="bosforosDescripcion">Comienza tu pedido eligiendo entre sus pizzas, bocadillos de ternera, pollo y mixto. Puedes acompañar tu kebab con una ración de patatas, ensalada o arroz. También disponen de menús a muy buen precio que te incluyen patatas y bebida. Disfruta de lo mejor de la cocina turca.</string>
+    <string name="bosforosDireccion">Calle de Hortaleza, 6, Madrid, 28004</string>
+    <string name="bosforosHorario">12:00 – 23:59</string>
+
+    <!--    Healthy Burrito Toledo: -->
+    <string name="healthyTitulo">Healthy Burrito Toledo</string>
+    <string name="healthyDescripcion">En Healthy Burrito Toledo, de Madrid, encontrarás gran variedad de platos elaborados con los mejores ingredientes y de la mejor calidad. Prueba cada una de las delicias que te ofrece su variada carta y, lo mejor de todo, a muy buen precio.</string>
+    <string name="healthyDireccion">Calle de Toledo, 26, Madrid, 28005</string>
+    <string name="healthyHorario">12:00 – 23:59</string>
+
+    <!--    Miss Sushi Santa Ana:  -->
+    <string name="missTitulo">Miss Sushi Santa Ana</string>
+    <string name="missDescripcion">Este restaurante japonés de Madrid pone a tu disposición una completa carta de productos, delicias de los amantes de sushi y comida japonesa. Sumérgete en la cultura oriental y deja que la combinación de cada uno de sus platos te conquiste. </string>
+    <string name="missDireccion">Calle del Prado, 2, Madrid, 28014</string>
+    <string name="missHorario">13:00 – 23:34</string>
+
+    <!--    Pic & Nic:  -->
+    <string name="picnicTitulo">Pic&amp;nic</string>
+    <string name="picnicDescripcion">¿Con ganas de comida americana? Estás en el sitio indicado. En el restaurante Pic&amp;nic de Madrid encontrarás una gran variedad de platos típicos americanos. ¡No lo dudes y disfruta de los mejores manjares de una de las gastronomías mas punteras!</string>
+    <string name="picnicDireccion">Calle de San Andrés, 31, Madrid, 28004</string>
+    <string name="picnicHorario">12:00 – 23:15</string>
+
+    <!--    Asiático Chun:  -->
+    <string name="chunTitulo">Asiático Chun</string>
+    <string name="chunDescripcion">Pide en Asiático Chun y podrás disfrutar directamente en tu mesa de lo mejor de la cocina china y japonesa en Madrid. Elige entre entrantes, sopas, carnes, mariscos, platos vegetarianos, especialidades como el pollo caramelizado o sus rollos vietnamitas. Echa un vistazo a la carta y preocúpate solo de disfrutarlo.</string>
+    <string name="chunDireccion">Calle de Embajadores, 177, Madrid, 28045</string>
+    <string name="chunHorario">11:40 – 23:45</string>
+
+    <!--    La Leña Asador:   -->
+    <string name="leñaTitulo">La Leña Asador</string>
+    <string name="leñaDescripcion">¿Con ganas de comida americana? Estás en el sitio indicado. En el restaurante La Leña Asador de Madrid encontrarás una gran variedad de platos típicos americanos. ¡No lo dudes, disfruta de los mejores manjares de una de las gastronomías más punteras!</string>
+    <string name="leñaDireccion">Paseo del Quince de Mayo, 2, Madrid, 28019</string>
+    <string name="leñaHorario">12:00 – 23:59</string>
 </resources>
