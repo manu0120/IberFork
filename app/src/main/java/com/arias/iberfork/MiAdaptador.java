@@ -48,13 +48,25 @@ public class MiAdaptador extends RecyclerView.Adapter<MiAdaptador.ViewHolder> {
             @Override
             public void onClick(View view) {
                 switch (holder.getAdapterPosition()){
-                    case 1:
+                    case 0:
                         Intent intent=new Intent(view.getContext(), BarrilActivity.class);
                         view.getContext().startActivity(intent);
                         break;
-                    default:
-                        Intent intent2=new Intent(view.getContext(), BarrilActivity.class);
+                    case 1:
+                        Intent intent2=new Intent(view.getContext(), DanteActivity.class);
                         view.getContext().startActivity(intent2);
+                        break;
+                    case 2:
+                        Intent intent3=new Intent(view.getContext(), CrudoActivity.class);
+                        view.getContext().startActivity(intent3);
+                        break;
+                    case 3:
+                        Intent intent4=new Intent(view.getContext(), BosforosActivity.class);
+                        view.getContext().startActivity(intent4);
+                        break;
+                    default:
+                        Intent intent5=new Intent(view.getContext(), BarrilActivity.class);
+                        view.getContext().startActivity(intent5);
                         break;
                 }
             }
