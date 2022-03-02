@@ -47,27 +47,57 @@ public class MiAdaptador extends RecyclerView.Adapter<MiAdaptador.ViewHolder> {
         holder.cardView.findViewById(R.id.btnDetalles).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                // lo de abajo es igual que switch(position)
                 switch (holder.getAdapterPosition()){
                     case 0:
-                        Intent intent=new Intent(view.getContext(), BarrilActivity.class);
+                        Intent intent=new Intent(view.getContext(), GeneralActivity.class);
+                        intent.putExtra("position_holder", holder.getAdapterPosition());
                         view.getContext().startActivity(intent);
                         break;
                     case 1:
-                        Intent intent2=new Intent(view.getContext(), DanteActivity.class);
+                        Intent intent2=new Intent(view.getContext(), GeneralActivity.class);
+                        intent2.putExtra("position_holder", holder.getAdapterPosition());
                         view.getContext().startActivity(intent2);
                         break;
                     case 2:
-                        Intent intent3=new Intent(view.getContext(), CrudoActivity.class);
+                        Intent intent3=new Intent(view.getContext(), GeneralActivity.class);
+                        intent3.putExtra("position_holder", holder.getAdapterPosition());
                         view.getContext().startActivity(intent3);
                         break;
                     case 3:
-                        Intent intent4=new Intent(view.getContext(), BosforosActivity.class);
+                        Intent intent4=new Intent(view.getContext(), GeneralActivity.class);
+                        intent4.putExtra("position_holder", holder.getAdapterPosition());
                         view.getContext().startActivity(intent4);
                         break;
-                    default:
-                        Intent intent5=new Intent(view.getContext(), BarrilActivity.class);
+                    case 4:
+                        Intent intent5=new Intent(view.getContext(), GeneralActivity.class);
+                        intent5.putExtra("position_holder", holder.getAdapterPosition());
                         view.getContext().startActivity(intent5);
                         break;
+                    case 5:
+                        Intent intent6=new Intent(view.getContext(), GeneralActivity.class);
+                        intent6.putExtra("position_holder", holder.getAdapterPosition());
+                        view.getContext().startActivity(intent6);
+                        break;
+                    case 6:
+                        Intent intent7=new Intent(view.getContext(), GeneralActivity.class);
+                        intent7.putExtra("position_holder", holder.getAdapterPosition());
+                        view.getContext().startActivity(intent7);
+                        break;
+                    case 7:
+                        Intent intent8=new Intent(view.getContext(), GeneralActivity.class);
+                        intent8.putExtra("position_holder", holder.getAdapterPosition());
+                        view.getContext().startActivity(intent8);
+                        break;
+                    case 8:
+                        Intent intent9=new Intent(view.getContext(), GeneralActivity.class);
+                        intent9.putExtra("position_holder", holder.getAdapterPosition());
+                        view.getContext().startActivity(intent9);
+                        break;
+                    default:
+                        Intent intent10=new Intent(view.getContext(), GeneralActivity.class);
+                        intent10.putExtra("position_holder", holder.getAdapterPosition());
+                        view.getContext().startActivity(intent10);
                 }
             }
         });

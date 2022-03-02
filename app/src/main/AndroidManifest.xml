@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.IberFork">
         <activity
+            android:name=".GeneralActivity"
+            android:exported="false" />
+        <activity
             android:name=".LenyaActivity"
             android:exported="false" />
         <activity
