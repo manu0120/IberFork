@@ -33,7 +33,7 @@ public class NavigActivity extends AppCompatActivity {
         toolbar=findViewById(R.id.toolbar);
 
         //empieza de incio una fragmento determinado
-        getSupportFragmentManager().beginTransaction().add(R.id.content, new FragmentGeneral()).commit();
+        getSupportFragmentManager().beginTransaction().add(R.id.flContent, new RestaurantesFragment()).commit();
         setTitle("Restaurantes");
         //setup toolbar
         setSupportActionBar(toolbar);
@@ -72,17 +72,18 @@ public class NavigActivity extends AppCompatActivity {
         //identifico que item se ha clickado
         switch(item.getItemId()){
             case R.id.nav_profile:
-                ft.replace(R.id.flContent, new ProfileFragment().commit());
+                ft.replace(R.id.flContent, new ProfileFragment()).commit();
                 break;
             case R.id.nav_restaurantes:
-                ft.replace(R.id.flContent, new ProfileFragment().commit());
+                ft.replace(R.id.flContent, new RestaurantesFragment()).commit();
+
                 break;
             case R.id.nav_reservas:
-                ft.replace(R.id.flContent, new ProfileFragment().commit());
+                ft.replace(R.id.flContent, new ProfileFragment()).commit();
 
                 break;
             case R.id.nav_preferencias:
-                ft.replace(R.id.flContent, new ProfileFragment().commit());
+                ft.replace(R.id.flContent, new ProfileFragment()).commit();
                 break;
         }
         //selecciono el titulo que va a aparecer en el toolbar

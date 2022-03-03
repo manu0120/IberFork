@@ -12,7 +12,11 @@
         <activity
             android:name=".NavigActivity"
             android:exported="false"
-            android:theme="@style/Theme.noActionBar"/>
+            android:theme="@style/Theme.noActionBar"
+            />
+
+
+
         <activity
             android:name=".GeneralActivity"
             android:exported="false" />
