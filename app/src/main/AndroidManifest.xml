@@ -11,33 +11,10 @@
         android:theme="@style/Theme.IberFork">
         <activity
             android:name=".NavigActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/Theme.noActionBar"/>
         <activity
             android:name=".GeneralActivity"
-            android:exported="false" />
-        <activity
-            android:name=".LenyaActivity"
-            android:exported="false" />
-        <activity
-            android:name=".ChunActivity"
-            android:exported="false" />
-        <activity
-            android:name=".PicnicActivity"
-            android:exported="false" />
-        <activity
-            android:name=".MissActivity"
-            android:exported="false" />
-        <activity
-            android:name=".HealthyActivity"
-            android:exported="false" />
-        <activity
-            android:name=".BosforosActivity"
-            android:exported="false" />
-        <activity
-            android:name=".CrudoActivity"
-            android:exported="false" />
-        <activity
-            android:name=".DanteActivity"
             android:exported="false" />
         <activity
             android:name=".BarrilActivity"

@@ -56,4 +56,8 @@
     <string name="leñaDescripcion">¿Con ganas de comida americana? Estás en el sitio indicado. En el restaurante La Leña Asador de Madrid encontrarás una gran variedad de platos típicos americanos. ¡No lo dudes, disfruta de los mejores manjares de una de las gastronomías más punteras!</string>
     <string name="leñaDireccion">Paseo del Quince de Mayo, 2, Madrid, 28019</string>
     <string name="leñaHorario">12:00 – 23:59</string>
+
+
+    <string name="drawer_open">Open Drawer</string>
+    <string name="drawer_close">Close Drawer</string>
 </resources>

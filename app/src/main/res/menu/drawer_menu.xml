@@ -1,4 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+-checked="true" -> para que cuando se acceda por primera vez al activity
+en el que está el menu, el item del menu aparezca sombreado
+
+-checkableBehavior="single" -> para que cuando se clicke otro item este
+aparezca sombreado y el otro no, de forma que siempre haya uno sombreado
+solamente.
+-->
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <group android:checkableBehavior="single">
         <item android:id="@+id/nav_profile"
@@ -7,6 +15,7 @@
 
         <item android:id="@+id/nav_restaurantes"
             android:title="Restaurantes"
+            android:checked="true"
             android:icon="@drawable/ic_restaurantes"/>
 
         <item android:id="@+id/nav_reservas"

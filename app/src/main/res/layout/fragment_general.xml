@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/clFragmentGeneral"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LenyaActivity">
+    tools:context=".GeneralFragment">
 
     <ImageView
         android:id="@+id/ivBanner"
@@ -14,7 +15,7 @@
         android:layout_marginTop="20dp"
         android:layout_marginEnd="27dp"
         android:scaleType="centerCrop"
-        android:src="@drawable/lalenya_banner"
+
 
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -26,7 +27,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="27dp"
-        android:src="@drawable/lalenya_logo"
+
 
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ivBanner" />
@@ -35,9 +36,9 @@
         android:id="@+id/tvTitulo"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:text="@string/leñaTitulo"
+
         android:layout_marginStart="27dp"
-        android:layout_marginTop="44dp"
+        android:layout_marginTop="33dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ivBanner"
         style="@style/estiloTitulo"
@@ -50,7 +51,7 @@
         android:layout_marginTop="12dp"
         android:layout_marginEnd="27dp"
 
-        android:text="@string/leñaDireccion"
+
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ivLogo" />
 
@@ -59,7 +60,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="27dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="14dp"
         android:text="Sobre nosotros:"
         android:textSize="17dp"
         android:textStyle="bold"
@@ -70,8 +71,8 @@
         android:id="@+id/tvDescripcion"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="21dp"
-        android:text="@string/leñaDescripcion"
+        android:layout_marginTop="11dp"
+
         android:textSize="13dp"
         android:textStyle="italic"
         app:layout_constraintEnd_toEndOf="parent"
@@ -83,7 +84,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="27dp"
-        android:layout_marginTop="23dp"
+        android:layout_marginTop="20dp"
         android:text="Horario:"
         android:textSize="17dp"
         android:textStyle="bold"
@@ -95,8 +96,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
-        android:layout_marginTop="23dp"
-        android:text="@string/leñaHorario"
+        android:layout_marginTop="20dp"
+
         app:layout_constraintStart_toEndOf="@+id/tvHorario"
         app:layout_constraintTop_toBottomOf="@+id/tvDescripcion" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
