@@ -10,7 +10,7 @@ solamente.
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <group android:checkableBehavior="single">
         <item android:id="@+id/nav_profile"
-            android:title="Perfil"
+            android:title="Pagina web"
             android:icon="@drawable/ic_profile"/>
 
         <item android:id="@+id/nav_restaurantes"
@@ -18,12 +18,6 @@ solamente.
             android:checked="true"
             android:icon="@drawable/ic_restaurantes"/>
 
-        <item android:id="@+id/nav_reservas"
-            android:title="Mis reservas"
-            android:icon="@drawable/ic_reservas"/>
 
-        <item android:id="@+id/nav_preferencias"
-            android:title="Preferencias"
-            android:icon="@drawable/ic_preferencias"/>
     </group>
 </menu>

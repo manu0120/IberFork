@@ -72,19 +72,13 @@ public class NavigActivity extends AppCompatActivity {
         //identifico que item se ha clickado
         switch(item.getItemId()){
             case R.id.nav_profile:
-                ft.replace(R.id.flContent, new ProfileFragment()).commit();
+                ft.replace(R.id.flContent, new ContactoFragment()).commit();
                 break;
             case R.id.nav_restaurantes:
                 ft.replace(R.id.flContent, new RestaurantesFragment()).commit();
 
                 break;
-            case R.id.nav_reservas:
-                ft.replace(R.id.flContent, new ProfileFragment()).commit();
 
-                break;
-            case R.id.nav_preferencias:
-                ft.replace(R.id.flContent, new ProfileFragment()).commit();
-                break;
         }
         //selecciono el titulo que va a aparecer en el toolbar
         setTitle(item.getTitle());
