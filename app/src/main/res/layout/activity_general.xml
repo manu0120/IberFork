@@ -99,4 +99,27 @@
 
         app:layout_constraintStart_toEndOf="@+id/tvHorario"
         app:layout_constraintTop_toBottomOf="@+id/tvDescripcion" />
+
+    <Button
+        android:id="@+id/btnReservar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reserva mesa"
+        style="?attr/borderlessButtonStyle"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="30dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/btnLlamar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Llamar"
+        style="?attr/borderlessButtonStyle"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/btnReservar"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

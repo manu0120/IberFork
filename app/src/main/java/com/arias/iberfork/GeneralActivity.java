@@ -2,7 +2,10 @@ package com.arias.iberfork;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -10,6 +13,7 @@ public class GeneralActivity extends AppCompatActivity {
     ImageView ivBanner, ivLogo;
     TextView tvTitulo, tvDescripcion, tvDireccion, tvHorarioFecha;
     TextView tvSobreNosotros, tvHorario;
+    Button btnLlamar, btnReservar;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -24,6 +28,9 @@ public class GeneralActivity extends AppCompatActivity {
 
         tvSobreNosotros=findViewById(R.id.tvSobreNosotros);
         tvHorario=findViewById(R.id.tvHorario);
+
+        btnLlamar=findViewById(R.id.btnLlamar);
+        btnReservar=findViewById(R.id.btnReservar);
 
         /*  Instancio una variable del objeto Bundle y recibimos la informacion enviada
         (que boton se ha pulsado en el recyclerView) por la actividad anterior. Dependiendo
@@ -107,5 +114,13 @@ public class GeneralActivity extends AppCompatActivity {
                 tvHorarioFecha.setText(R.string.leñaHorario);
                 break;
         }
+
+        btnReservar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(getBaseContext(), ReservarActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 }
